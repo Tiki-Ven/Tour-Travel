@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tour Details | Marina Travel</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<!-- Search Script -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+
+  <!-- LEFT -->
+  <div class="nav-left">
+    <a href="index.html" class="logo">Marina Travel</a>
+  </div>
+
+  <!-- CENTER (SEARCH BAR) -->
+  <div class="nav-center">
+    <form class="nav-search" onsubmit="return handleSearch(event)">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search tours..."
+      />
+      <button type="submit">
+        <i class="fa fa-search"></i>
+      </button>
+    </form>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Tours</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="booking.html" class="btn-book">Booking</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+</nav>
+
+<!-- HERO -->
+<section class="page-hero tour-hero">
+  <div class="page-hero-content">
+    <h1 id="tourTitle">Island Escape</h1>
+    <p class="breadcrumb">
+      <a href="index.html">Home</a> /
+      <a href="services.html">Tours</a> /
+      <span id="tourBreadcrumb">Island Escape</span>
+    </p>
+  </div>
+</section>
+
+<!-- TOUR DETAILS -->
+<section class="tour-detail-page">
+
+  <!-- ===== TOUR 1 ===== -->
+  <div class="tour-detail-block">
+    <img src="images/tour1.jpg" alt="Island Escape">
+
+    <div class="tour-detail-content">
+      <h2>Island Escape</h2>
+      <p class="tour-desc">
+        Enjoy a relaxing island escape with crystal-clear waters, tropical beaches, and breathtaking scenery.
+      </p>
+
+      <h4>Tour Highlights</h4>
+      <ul>
+        <li>✔ Professional tour guide</li>
+        <li>✔ Luxury boat experience</li>
+        <li>✔ Free snorkeling equipment</li>
+        <li>✔ Meals included</li>
+      </ul>
+
+      <h4>Tour Information</h4>
+      <p>⏱ 3 Days / 2 Nights</p>
+      <p>📍 Tropical Islands</p>
+      <p>👥 Max 10 People</p>
+
+      <a href="booking.html" class="btn-primary">Book This Tour</a>
+    </div>
+  </div>
+
+  <!-- ===== TOUR 2 ===== -->
+  <div class="tour-detail-block">
+    <img src="images/tour2.jpg" alt="Ocean Cruise">
+
+    <div class="tour-detail-content">
+      <h2>Ocean Cruise</h2>
+      <p class="tour-desc">
+        Experience a luxury ocean cruise with premium amenities and stunning sunset views.
+      </p>
+
+      <h4>Tour Highlights</h4>
+      <ul>
+        <li>✔ Luxury cruise ship</li>
+        <li>✔ On-board dining</li>
+        <li>✔ Sunset views</li>
+        <li>✔ Entertainment included</li>
+      </ul>
+
+      <h4>Tour Information</h4>
+      <p>⏱ 2 Days / 1 Night</p>
+      <p>📍 Open Sea</p>
+      <p>👥 Max 20 People</p>
+
+      <a href="booking.html" class="btn-primary">Book This Tour</a>
+    </div>
+  </div>
+
+  <!-- ===== TOUR 3 ===== -->
+  <div class="tour-detail-block">
+    <img src="images/tour3.jpg" alt="Diving Adventure">
+
+    <div class="tour-detail-content">
+      <h2>Diving Adventure</h2>
+      <p class="tour-desc">
+        Explore vibrant coral reefs and marine life with certified diving instructors.
+      </p>
+
+      <h4>Tour Highlights</h4>
+      <ul>
+        <li>✔ Professional diving instructors</li>
+        <li>✔ Full safety equipment</li>
+        <li>✔ Coral reef exploration</li>
+        <li>✔ Underwater photography</li>
+      </ul>
+
+      <h4>Tour Information</h4>
+      <p>⏱ 1 Day</p>
+      <p>📍 Coral Bay</p>
+      <p>👥 Max 6 People</p>
+
+      <a href="booking.html" class="btn-primary">Book This Tour</a>
+    </div>
+  </div>
+
+</section>
+
+
+<!-- FOOTER -->
+<footer class="footer">
+  <div class="footer-container">
+
+    <div class="footer-col">
+      <h3>Get In Touch</h3>
+      <p>📍 123 Street, New York</p>
+      <p>✉️ info@marinatravel.com</p>
+      <p>📞 +012 345 67890</p>
+      <div class="socials">
+        <a href="#">f</a>
+        <a href="#">in</a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h3>Company</h3>
+      <ul>
+        <li><a href="about.html">› About</a></li>
+        <li><a href="#">› Careers</a></li>
+        <li><a href="#">› Blog</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h3>Support</h3>
+      <ul>
+        <li><a href="contact.html">› Contact</a></li>
+        <li><a href="#">› Privacy Policy</a></li>
+        <li><a href="#">› Terms</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <div class="footer-select">
+        <select>
+          <option>English</option>
+          <option>Vietnamese</option>
+        </select>
+
+        <select>
+          <option>USD</option>
+          <option>VND</option>
+        </select>
+      </div>
+
+      <h3>Payments</h3>
+      <p class="payments">VISA&nbsp;&nbsp;MC&nbsp;&nbsp;AMEX&nbsp;&nbsp;PayPal</p>
+    </div>
+
+  </div>
+
+</body>
+</html>

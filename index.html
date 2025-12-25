@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Marina Travel</title>
+  <link rel="stylesheet" href="style.css" />
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+
+  <!-- LEFT -->
+  <div class="nav-left">
+    <a href="index.html" class="logo">Marina Travel</a>
+  </div>
+
+  <!-- CENTER (SEARCH BAR) -->
+  <div class="nav-center">
+    <form class="nav-search" onsubmit="return handleSearch(event)">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search tours..."
+      />
+      <button type="submit">
+        <i class="fa fa-search"></i>
+      </button>
+    </form>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Tours</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="booking.html" class="btn-book">Booking</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+</nav>
+
+
+<section class="hero home-hero">
+  <div class="hero-content">
+    <h1>Explore the Ocean with Marina Travel</h1>
+    <p>Your trusted partner for unforgettable sea adventures</p>
+    <a href="services.html" class="btn-primary">View Tours</a>
+  </div>
+</section>
+
+
+<section class="section">
+  <h2>Popular Tours</h2>
+  <div class="tours">
+    <div class="tour-card">
+      <img src="images/tour1.jpg" />
+      <div>
+        <h3>Island Escape</h3>
+        <p>3 days of pure relaxation.</p>
+      </div>
+    </div>
+
+    <div class="tour-card">
+      <img src="images/tour2.jpg" />
+      <div>
+        <h3>Ocean Cruise</h3>
+        <p>Luxury sea experience.</p>
+      </div>
+    </div>
+
+    <div class="tour-card">
+      <img src="images/tour3.jpg" />
+      <div>
+        <h3>Diving Adventure</h3>
+        <p>Discover underwater beauty.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Get In Touch -->
+    <div class="footer-col">
+      <h3>Get In Touch</h3>
+      <p>📍 123 Street, New York</p>
+      <p>✉️ info@marinatravel.com</p>
+      <p>📞 +012 345 67890</p>
+      <div class="socials">
+        <a href="#">f</a>
+        <a href="#">in</a>
+      </div>
+    </div>
+
+    <!-- Company -->
+    <div class="footer-col">
+      <h3>Company</h3>
+      <ul>
+        <li><a href="about.html">› About</a></li>
+        <li><a href="#">› Careers</a></li>
+        <li><a href="#">› Blog</a></li>
+      </ul>
+    </div>
+
+    <!-- Support -->
+    <div class="footer-col">
+      <h3>Support</h3>
+      <ul>
+        <li><a href="contact.html">› Contact</a></li>
+        <li><a href="#">› Privacy Policy</a></li>
+        <li><a href="#">› Terms</a></li>
+      </ul>
+    </div>
+
+    <!-- Payments -->
+    <div class="footer-col">
+      <div class="footer-select">
+        <select>
+          <option>English</option>
+          <option>Vietnamese</option>
+        </select>
+
+        <select>
+          <option>USD</option>
+          <option>VND</option>
+        </select>
+      </div>
+
+      <h3>Payments</h3>
+      <p class="payments">VISA&nbsp;&nbsp;MC&nbsp;&nbsp;AMEX&nbsp;&nbsp;PayPal</p>
+    </div>
+
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 Marina Travel. All rights reserved.
+  </div>
+</footer>
+
+
+</body>
+</html>

@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Gallery | Marina Travel</title>
+  <link rel="stylesheet" href="style.css" />
+  <script defer src="script.js"></script>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+  />
+</head>
+<body>
+
+<!-- Search Script -->
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+
+  <!-- LEFT -->
+  <div class="nav-left">
+    <a href="index.html" class="logo">Marina Travel</a>
+  </div>
+
+  <!-- CENTER (SEARCH BAR) -->
+  <div class="nav-center">
+    <form class="nav-search" onsubmit="return handleSearch(event)">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search tours..."
+      />
+      <button type="submit">
+        <i class="fa fa-search"></i>
+      </button>
+    </form>
+  </div>
+
+  <!-- RIGHT -->
+  <div class="nav-right">
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="services.html">Tours</a></li>
+      <li><a href="gallery.html">Gallery</a></li>
+      <li><a href="booking.html" class="btn-book">Booking</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </div>
+
+</nav>
+
+<!-- HERO -->
+<section class="page-hero gallery-hero">
+  <div class="page-hero-content">
+    <h1>Gallery</h1>
+
+    <p class="breadcrumb">
+      <a href="index.html">Home</a>
+      <span>/</span>
+      <span>Gallery</span>
+    </p>
+  </div>
+</section>
+
+
+<!-- GALLERY -->
+<section class="gallery-section">
+  <div class="gallery-grid">
+
+    <div class="gallery-item">
+      <img src="images/gallery1.jpg" alt="Gallery image">
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/gallery2.jpg" alt="Gallery image">
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/gallery3.jpg" alt="Gallery image">
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/gallery4.jpg" alt="Gallery image">
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/gallery5.jpg" alt="Gallery image">
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/gallery6.jpg" alt="Gallery image">
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/gallery7.jpg" alt="Gallery image">
+    </div>
+
+    <div class="gallery-item">
+      <img src="images/gallery8.jpg" alt="Gallery image">
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="footer-container">
+
+    <!-- Get In Touch -->
+    <div class="footer-col">
+      <h3>Get In Touch</h3>
+      <p>📍 123 Street, New York</p>
+      <p>✉️ info@marinatravel.com</p>
+      <p>📞 +012 345 67890</p>
+      <div class="socials">
+        <a href="#">f</a>
+        <a href="#">in</a>
+      </div>
+    </div>
+
+    <!-- Company -->
+    <div class="footer-col">
+      <h3>Company</h3>
+      <ul>
+        <li><a href="about.html">› About</a></li>
+        <li><a href="#">› Careers</a></li>
+        <li><a href="#">› Blog</a></li>
+      </ul>
+    </div>
+
+    <!-- Support -->
+    <div class="footer-col">
+      <h3>Support</h3>
+      <ul>
+        <li><a href="contact.html">› Contact</a></li>
+        <li><a href="#">› Privacy Policy</a></li>
+        <li><a href="#">› Terms</a></li>
+      </ul>
+    </div>
+
+    <!-- Payments -->
+    <div class="footer-col">
+      <div class="footer-select">
+        <select>
+          <option>English</option>
+          <option>Vietnamese</option>
+        </select>
+
+        <select>
+          <option>USD</option>
+          <option>VND</option>
+        </select>
+      </div>
+
+      <h3>Payments</h3>
+      <p class="payments">VISA&nbsp;&nbsp;MC&nbsp;&nbsp;AMEX&nbsp;&nbsp;PayPal</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
